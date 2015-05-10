@@ -1,0 +1,8 @@
+<template name="layout">
+  
+  {{> yield}}
+
+  {{#if currentUser}}
+  	{{> navbar}}
+  {{/if}}
+</template>

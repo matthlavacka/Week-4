@@ -1,0 +1,26 @@
+*{
+	font-family: Avenir, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+}
+#footer-nav {
+	position: absolute;
+	margin: auto;
+  	bottom: 0em;
+    background-color: #222;
+    margin: 0em;
+    color: #FFF;
+    padding: 1em 30%;
+}
+img {
+	width: 100%;
+	max-width: 40em;
+	min-width: 100%;
+}
+.list-group-item {
+	width: 100%;
+	padding: 0em;
+	max-width: 40em;
+	margin: 0.5em 0em 0.5em;
+	border: 0em;
+}

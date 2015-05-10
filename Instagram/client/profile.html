@@ -1,0 +1,12 @@
+<template name="profile">
+	<div id="user-navbar" class="container">
+		<h4 class="pull-left">{{> loginButtons}}</h4>
+		<h4 class="pull-right">{{picturesCount}} posts</h4>
+	</div>
+	{{#each userPictures}}
+		{{#unless this.isUploaded}}
+  			{{> FS.UploadProgressBar bootstrap=true}}
+		{{/unless}}
+   			{{> image}}
+	{{/each}}
+</template>
